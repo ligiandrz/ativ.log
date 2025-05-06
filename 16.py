@@ -1,3 +1,6 @@
+#Faça um algoritmo que leia três valores que representam os três lados de
+#um triângulo e verifique se são válidos, determine se o triângulo é equilátero,
+#isósceles ou escaleno.
 lado1 = float(input("digite o comprimento do primeiro lado:"))
 lado2 = float(input("digite o comprimento do segundo lado:"))
 lado3 = float(input("digite o comprimento do terceiro lado:"))
