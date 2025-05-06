@@ -1,7 +1,8 @@
-valor = int(input("insira um numero:"))
-if valor == 0:
-    print(False)
-elif valor == 1:
-    print(True)
-else:
-    print("valor inválido")
+valor1 =int(input("digite o primeiro valor(1 para verdadeiro, 0 para falso):"))
+valor2 =int(input("digite o segundo valor(1 para verdadeiro, 0 para falso):"))
+if valor1 == 1 and valor2 == 1:
+        print("ambos são verdadeiros")
+elif valor1 == 0 and valor2 == 0:
+        print("ambos são falsos")
+else: 
+    print("um é verdadeiro e o outro é falso")
